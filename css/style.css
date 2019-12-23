@@ -6,6 +6,7 @@ body{
     box-sizing: border-box;
     word-wrap: normal; 
     color:white;
+    background-color: lightgray;
 }
 .container{
     width: 100%;
@@ -22,17 +23,27 @@ body{
 p{
     padding:10px 10px 2px 10px;
 }
+section > article{
+    color:#E6E6FA;
+    background-color: #4B0082;
+    border: 1px solid black;
+}
+.box1{
+    background-color: #ff1a1a;
+}
+.box2{
+    background-color:#99ff33;
+}
+.box3{
+    background-color:#1a8cff;
+}
 /* For Mobile and Small Screen Devices */
 @media screen and (max-width:767px){
     section{
         width:100%;
-        color:#333;
     }
     section > article{
-        /* padding:30px; */
         margin:30px;
-        background-color: gold;
-        border:1px solid black;
     }
     .title_outer{
         position: sticky;
@@ -52,13 +63,9 @@ p{
 @media screen and (min-width:768px) and (max-width:991px){
     section{
         width:100%;
-        color:#111;
     }
     section > article{
-        /* padding:30px; */
         margin:10px;
-        background-color: gold;
-        border:1px solid black;
     }
     .art-1{
         width:45%;
@@ -89,13 +96,10 @@ p{
 @media screen and (min-width:992px){
     section{
         width:100%;
-        color:black;
     }
     section > article{
         width:30%;
         margin-left:1.5%;
-        background-color: gold;
-        border:1px solid black;
         display: inline-block;
     }
     .title_outer{
@@ -111,15 +115,6 @@ p{
         top:-10px;
         left:72px;
     }
-}
-.box1{
-    background-color:#ff1a1a;
-}
-.box2{
-    background-color:#99ff33;
-}
-.box3{
-    background-color:#1a8cff;
 }
 
 /* width */
