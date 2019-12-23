@@ -115,6 +115,16 @@ p{
         left:72px;
     }
 }
+.box1{
+    background-color:#ff1a1a;
+}
+.box2{
+    background-color:#99ff33;
+}
+.box3{
+    background-color:#1a8cff;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
